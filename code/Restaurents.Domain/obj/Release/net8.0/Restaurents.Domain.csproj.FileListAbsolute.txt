@@ -1,0 +1,12 @@
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/bin/Release/net8.0/Restaurents.Domain.deps.json
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/bin/Release/net8.0/Restaurents.Domain.dll
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/bin/Release/net8.0/Restaurents.Domain.pdb
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/Restaurents.Domain.csproj.AssemblyReference.cache
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/Restaurents.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/Restaurents.Domain.AssemblyInfoInputs.cache
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/Restaurents.Domain.AssemblyInfo.cs
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/Restaurents.Domain.csproj.CoreCompileInputs.cache
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/Restaurents.Domain.dll
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/refint/Restaurents.Domain.dll
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/Restaurents.Domain.pdb
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Release/net8.0/ref/Restaurents.Domain.dll

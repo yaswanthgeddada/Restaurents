@@ -1,0 +1,222 @@
+[2025-11-24 14:59:39 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 14:59:39 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 15:02:06 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 15:02:06 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 15:02:06 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 15:05:14 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 15:05:14 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 15:05:14 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 15:07:12 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 15:07:12 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 15:07:12 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 15:07:12 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 15:07:12 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 19:00:53 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 19:00:54 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 19:00:54 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 19:02:22 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 19:02:22 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 19:02:22 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 19:09:06 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 19:09:06 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 19:09:06 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 19:09:08 ERR] | Microsoft.EntityFrameworkCore.Update| - 
+ An exception occurred in the database while saving changes for context type 'Restaurents.Infrastructure.Persistance.RestaurentDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The MERGE statement conflicted with the FOREIGN KEY constraint "FK_Restaurents_AspNetUsers_OwnerId". The conflict occurred in database "mycloudbd", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:b410a6ce-eb71-4581-a3ce-d6d0b344738e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The MERGE statement conflicted with the FOREIGN KEY constraint "FK_Restaurents_AspNetUsers_OwnerId". The conflict occurred in database "mycloudbd", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:b410a6ce-eb71-4581-a3ce-d6d0b344738e
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2025-11-24 19:09:38 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 19:09:38 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 19:09:38 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 19:09:40 ERR] | Microsoft.EntityFrameworkCore.Update| - 
+ An exception occurred in the database while saving changes for context type 'Restaurents.Infrastructure.Persistance.RestaurentDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The MERGE statement conflicted with the FOREIGN KEY constraint "FK_Restaurents_AspNetUsers_OwnerId". The conflict occurred in database "mycloudbd", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:45199817-e28d-4e78-97dc-44328e298493
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The MERGE statement conflicted with the FOREIGN KEY constraint "FK_Restaurents_AspNetUsers_OwnerId". The conflict occurred in database "mycloudbd", table "dbo.AspNetUsers", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:45199817-e28d-4e78-97dc-44328e298493
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2025-11-24 19:10:34 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 19:10:34 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 19:10:34 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 19:14:00 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-24 19:14:00 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/register responded 200 in 554.0353 ms
+[2025-11-24 19:14:07 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/register responded 200 in 512.6840 ms
+[2025-11-24 19:14:12 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/register responded 200 in 479.0143 ms
+[2025-11-24 19:17:38 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/userRole responded 401 in 6.7108 ms
+[2025-11-24 19:18:03 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/login responded 200 in 1204.9069 ms
+[2025-11-24 19:18:10 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/userRole responded 401 in 1.1348 ms
+[2025-11-24 19:18:40 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/userRole responded 401 in 2.6685 ms
+[2025-11-24 19:18:53 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/login responded 200 in 1239.6624 ms
+[2025-11-24 19:18:56 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-24 19:18:56 INF] | Restaurents.Application.CQRS.Commands.AssignUserRole.AssignUserRoleCommandHandler| - 
+ assign user role request {"UserEmail":"User@gmail.com","RoleName":"User","$type":"AssignUserRoleCommand"}
+[2025-11-24 19:18:58 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/userRole responded 204 in 2067.1468 ms
+[2025-11-24 19:19:18 INF] | Restaurents.Application.CQRS.Commands.AssignUserRole.AssignUserRoleCommandHandler| - 
+ assign user role request {"UserEmail":"Owner@gmail.com","RoleName":"Owner","$type":"AssignUserRoleCommand"}
+[2025-11-24 19:19:20 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/userRole responded 204 in 1945.6195 ms
+[2025-11-24 19:21:36 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/restaurents responded 403 in 3.4998 ms
+[2025-11-24 19:26:21 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-24 19:26:21 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-24 19:26:21 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-24 19:26:49 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-24 19:26:49 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-24 19:26:49 INF] | Restaurents.Controllers.RestaurentsController| - 
+ GetAllRestaurents method called.
+[2025-11-24 19:26:49 INF] | Restaurents.Application.Queries.GetAllRestaurents.GetAllRestaurentsQueryHandler| - 
+ Inside Service layer - GetAllRestaurentsQueryHandler , Request object is - {"searchPhrase":null,"PageNumber":1,"PageSize":10,"SortBy":"Name","SortDirection":1}
+[2025-11-24 19:26:49 INF] | Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository| - 
+ Inside Infra layer GetAllRestaurents called
+[2025-11-24 19:26:49 INF] | Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository| - 
+ Response from DB call - [{"Id":6,"Name":"Urban Tadka","Description":"Modern North Indian dishes with a fusion twist.","Category":"Indian","HasDelivery":true,"ContactEmail":"info@urbantadka.com","ContactNumber":"9123456780","CreatedAt":"2025-11-24T13:56:23.081821","Address":{"Street":"Jubilee Hills","PostalCode":"500033","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":15,"Name":"Tandoori Flames","Description":"Authentic tandoor-cooked kebabs and breads.","Category":"North Indian","HasDelivery":true,"ContactEmail":"connect@tandooriflames.com","ContactNumber":"9192837465","CreatedAt":"2025-11-24T13:56:23.081823","Address":{"Street":"Dilsukhnagar","PostalCode":"500060","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":10,"Name":"Sushi Maki","Description":"Fresh sushi, sashimi, and Japanese delicacies.","Category":"Japanese","HasDelivery":false,"ContactEmail":"contact@sushimaki.com","ContactNumber":"9876501234","CreatedAt":"2025-11-24T13:56:23.081822","Address":{"Street":"Gachibowli","PostalCode":"500032","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":3,"Name":"Spice Garden","Description":"Authentic Indian cuisine with rich flavors.","Category":"Indian","HasDelivery":true,"ContactEmail":"contact@spicegarden.com","ContactNumber":"9876543210","CreatedAt":"2025-11-24T13:56:23.081733","Address":{"Street":"MG Road","PostalCode":"500001","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":12,"Name":"Punjab Rasoi","Description":"Traditional Punjabi dishes with home-style taste.","Category":"Punjabi","HasDelivery":true,"ContactEmail":"info@punjabrasoi.com","ContactNumber":"9654321870","CreatedAt":"2025-11-24T13:56:23.081823","Address":{"Street":"Ameerpet","PostalCode":"500016","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":4,"Name":"Ocean Breeze","Description":"Seafood restaurant with coastal vibes.","Category":"Seafood","HasDelivery":false,"ContactEmail":"hello@oceanbreeze.com","ContactNumber":"9123456780","CreatedAt":"2025-11-24T13:56:23.081821","Address":{"Street":"Beach Road","PostalCode":"600004","City":"Chennai"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":8,"Name":"Italiano Bistro","Description":"Classic Italian pasta, pizza, and desserts.","Category":"Italian","HasDelivery":true,"ContactEmail":"hello@italianobistro.com","ContactNumber":"9012345678","CreatedAt":"2025-11-24T13:56:23.081822","Address":{"Street":"Hitech City","PostalCode":"500081","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":13,"Name":"Green Leaf Cafe","Description":"Healthy salads, smoothies, and vegan meals.","Category":"Healthy","HasDelivery":false,"ContactEmail":"care@greenleaf.com","ContactNumber":"9321456789","CreatedAt":"2025-11-24T13:56:23.081823","Address":{"Street":"Madhapur","PostalCode":"500081","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":5,"Name":"Green Bowl","Description":"Healthy vegetarian and vegan meals.","Category":"Vegan","HasDelivery":true,"ContactEmail":"info@greenbowl.com","ContactNumber":"9988776655","CreatedAt":"2025-11-24T13:56:23.081821","Address":{"Street":"Park Avenue","PostalCode":"560001","City":"Bangalore"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"},{"Id":7,"Name":"Dragon Wok","Description":"Authentic Chinese cuisine with bold flavors.","Category":"Chinese","HasDelivery":true,"ContactEmail":"support@dragonwok.com","ContactNumber":"9988776655","CreatedAt":"2025-11-24T13:56:23.081822","Address":{"Street":"Banjara Hills","PostalCode":"500034","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9832afe5-dd9c-4f92-8095-76d91859e331"}]
+[2025-11-24 19:26:49 INF] | Restaurents.Application.Queries.GetAllRestaurents.GetAllRestaurentsQueryHandler| - 
+ mapping the resources to DTo - System.Collections.Generic.List`1[Restaurents.Application.DTOs.RestaurentDto]
+[2025-11-24 19:26:49 INF] | Restaurents.Controllers.RestaurentsController| - 
+ Get all restaurents response @{"Items":[{"Id":6,"Name":"Urban Tadka","Description":"Modern North Indian dishes with a fusion twist.","Category":"Indian","HasDelivery":true,"CreatedAt":"2025-11-24T13:56:23.081821","Street":"Jubilee Hills","PostalCode":"500033","City":"Hyderabad","dishes":[]},{"Id":15,"Name":"Tandoori Flames","Description":"Authentic tandoor-cooked kebabs and breads.","Category":"North Indian","HasDelivery":true,"CreatedAt":"2025-11-24T13:56:23.081823","Street":"Dilsukhnagar","PostalCode":"500060","City":"Hyderabad","dishes":[]},{"Id":10,"Name":"Sushi Maki","Description":"Fresh sushi, sashimi, and Japanese delicacies.","Category":"Japanese","HasDelivery":false,"CreatedAt":"2025-11-24T13:56:23.081822","Street":"Gachibowli","PostalCode":"500032","City":"Hyderabad","dishes":[]},{"Id":3,"Name":"Spice Garden","Description":"Authentic Indian cuisine with rich flavors.","Category":"Indian","HasDelivery":true,"CreatedAt":"2025-11-24T13:56:23.081733","Street":"MG Road","PostalCode":"500001","City":"Hyderabad","dishes":[]},{"Id":12,"Name":"Punjab Rasoi","Description":"Traditional Punjabi dishes with home-style taste.","Category":"Punjabi","HasDelivery":true,"CreatedAt":"2025-11-24T13:56:23.081823","Street":"Ameerpet","PostalCode":"500016","City":"Hyderabad","dishes":[]},{"Id":4,"Name":"Ocean Breeze","Description":"Seafood restaurant with coastal vibes.","Category":"Seafood","HasDelivery":false,"CreatedAt":"2025-11-24T13:56:23.081821","Street":"Beach Road","PostalCode":"600004","City":"Chennai","dishes":[]},{"Id":8,"Name":"Italiano Bistro","Description":"Classic Italian pasta, pizza, and desserts.","Category":"Italian","HasDelivery":true,"CreatedAt":"2025-11-24T13:56:23.081822","Street":"Hitech City","PostalCode":"500081","City":"Hyderabad","dishes":[]},{"Id":13,"Name":"Green Leaf Cafe","Description":"Healthy salads, smoothies, and vegan meals.","Category":"Healthy","HasDelivery":false,"CreatedAt":"2025-11-24T13:56:23.081823","Street":"Madhapur","PostalCode":"500081","City":"Hyderabad","dishes":[]},{"Id":5,"Name":"Green Bowl","Description":"Healthy vegetarian and vegan meals.","Category":"Vegan","HasDelivery":true,"CreatedAt":"2025-11-24T13:56:23.081821","Street":"Park Avenue","PostalCode":"560001","City":"Bangalore","dishes":[]},{"Id":7,"Name":"Dragon Wok","Description":"Authentic Chinese cuisine with bold flavors.","Category":"Chinese","HasDelivery":true,"CreatedAt":"2025-11-24T13:56:23.081822","Street":"Banjara Hills","PostalCode":"500034","City":"Hyderabad","dishes":[]}],"TotalPages":2,"TotalItemsCount":13,"ItemsFrom":1,"ItemsTo":10}
+[2025-11-24 19:26:49 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents responded 200 in 595.2174 ms

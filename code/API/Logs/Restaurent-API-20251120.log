@@ -1,0 +1,189 @@
+[2025-11-20 23:17:28 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-20 23:17:28 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-20 23:17:28 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-20 23:17:28 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-20 23:17:29 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/register responded 200 in 842.1750 ms
+[2025-11-20 23:17:36 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/register responded 200 in 117.5283 ms
+[2025-11-20 23:19:45 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-20 23:19:45 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-20 23:19:45 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-20 23:24:04 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-20 23:24:04 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-20 23:24:04 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-20 23:25:04 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-20 23:25:04 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/login responded 200 in 224.0056 ms
+[2025-11-20 23:25:13 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-20 23:25:13 ERR] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents/1 responded 500 in 135.9423 ms
+Restaurents.Domain.Exceptions.NotFoundException: Record (1)  Not found
+   at Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository.GetRestaurentById(Int32 id) in /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Infrastructure/Repositories/Implementations/RestaurentRepository.cs:line 90
+   at Restaurents.Application.Queries.GetRestaurentById.GetRestaurentByIdQueryHandler.Handle(GetRestaurentByIdQuery request, CancellationToken cancellationToken) in /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Application/CQRS/Queries/GetRestaurentById/GetRestaurentByIdQueryHandler.cs:line 13
+   at Restaurents.Controllers.RestaurentsController.GetRestaurentById(Int32 id) in /Users/luffy/DotnetProjects/Restaurents/code/API/Controllers/RestaurentsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[2025-11-20 23:25:13 ERR] | Restaurents.API.Middlewares.ExceptionHandelingMiddleware| - 
+ Record (1)  Not found
+[2025-11-20 23:25:18 ERR] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents/2 responded 500 in 30.2541 ms
+Restaurents.Domain.Exceptions.NotFoundException: Record (2)  Not found
+   at Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository.GetRestaurentById(Int32 id) in /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Infrastructure/Repositories/Implementations/RestaurentRepository.cs:line 90
+   at Restaurents.Application.Queries.GetRestaurentById.GetRestaurentByIdQueryHandler.Handle(GetRestaurentByIdQuery request, CancellationToken cancellationToken) in /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Application/CQRS/Queries/GetRestaurentById/GetRestaurentByIdQueryHandler.cs:line 13
+   at Restaurents.Controllers.RestaurentsController.GetRestaurentById(Int32 id) in /Users/luffy/DotnetProjects/Restaurents/code/API/Controllers/RestaurentsController.cs:line 40
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[2025-11-20 23:25:18 ERR] | Restaurents.API.Middlewares.ExceptionHandelingMiddleware| - 
+ Record (2)  Not found
+[2025-11-20 23:25:22 INF] | Restaurents.Controllers.RestaurentsController| - 
+ GetAllRestaurents method called.
+[2025-11-20 23:25:22 INF] | Restaurents.Application.Queries.GetAllRestaurents.GetAllRestaurentsQueryHandler| - 
+ Inside Service layer - GetAllRestaurentsQueryHandler , Request object is - {"searchPhrase":"res","PageNumber":1,"PageSize":10,"SortBy":"Name","SortDirection":1}
+[2025-11-20 23:25:22 INF] | Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository| - 
+ Inside Infra layer GetAllRestaurents called
+[2025-11-20 23:25:22 INF] | Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository| - 
+ Response from DB call - []
+[2025-11-20 23:25:22 ERR] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents responded 500 in 113.8030 ms
+Restaurents.Domain.Exceptions.NotFoundException: List is empty or No restaurents found
+   at Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository.GetAllRestaurents(String searchPhrase, Int32 PageSize, Int32 PageNumber, String SortBy, SortDirection SortDirection) in /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Infrastructure/Repositories/Implementations/RestaurentRepository.cs:line 75
+   at Restaurents.Application.Queries.GetAllRestaurents.GetAllRestaurentsQueryHandler.Handle(GetAllRestaurentsQuery request, CancellationToken cancellationToken) in /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Application/CQRS/Queries/GetAllRestaurents/GetAllRestaurentsQueryHandler.cs:line 18
+   at Restaurents.Controllers.RestaurentsController.GetAllRestaurents(GetAllRestaurentsQuery query) in /Users/luffy/DotnetProjects/Restaurents/code/API/Controllers/RestaurentsController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[2025-11-20 23:25:22 ERR] | Restaurents.API.Middlewares.ExceptionHandelingMiddleware| - 
+ List is empty or No restaurents found
+[2025-11-20 23:25:31 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents responded 400 in 26.2548 ms
+[2025-11-20 23:25:44 INF] | Restaurents.Controllers.RestaurentsController| - 
+ GetAllRestaurents method called.
+[2025-11-20 23:25:44 INF] | Restaurents.Application.Queries.GetAllRestaurents.GetAllRestaurentsQueryHandler| - 
+ Inside Service layer - GetAllRestaurentsQueryHandler , Request object is - {"searchPhrase":null,"PageNumber":1,"PageSize":10,"SortBy":"Name","SortDirection":1}
+[2025-11-20 23:25:44 INF] | Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository| - 
+ Inside Infra layer GetAllRestaurents called
+[2025-11-20 23:25:44 INF] | Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository| - 
+ Response from DB call - [{"Id":8,"Name":"Spice Garden","Description":"Authentic Indian cuisine with rich flavors.","Category":"Indian","HasDelivery":true,"ContactEmail":"contact@spicegarden.com","ContactNumber":"9876543210","CreatedAt":"2025-11-20T17:49:45.6585","Address":{"Street":"MG Road","PostalCode":"500001","City":"Hyderabad"},"Dishes":[],"Owner":null,"OwnerId":"9f5887d4-4c0f-44d8-9317-eafae6098916"},{"Id":9,"Name":"Ocean Breeze","Description":"Seafood restaurant with coastal vibes.","Category":"Seafood","HasDelivery":false,"ContactEmail":"hello@oceanbreeze.com","ContactNumber":"9123456780","CreatedAt":"2025-11-20T17:49:45.658561","Address":{"Street":"Beach Road","PostalCode":"600004","City":"Chennai"},"Dishes":[],"Owner":null,"OwnerId":"9f5887d4-4c0f-44d8-9317-eafae6098916"},{"Id":10,"Name":"Green Bowl","Description":"Healthy vegetarian and vegan meals.","Category":"Vegan","HasDelivery":true,"ContactEmail":"info@greenbowl.com","ContactNumber":"9988776655","CreatedAt":"2025-11-20T17:49:45.658561","Address":{"Street":"Park Avenue","PostalCode":"560001","City":"Bangalore"},"Dishes":[],"Owner":null,"OwnerId":"9f5887d4-4c0f-44d8-9317-eafae6098916"}]
+[2025-11-20 23:25:44 INF] | Restaurents.Application.Queries.GetAllRestaurents.GetAllRestaurentsQueryHandler| - 
+ mapping the resources to DTo - System.Collections.Generic.List`1[Restaurents.Application.DTOs.RestaurentDto]
+[2025-11-20 23:25:44 INF] | Restaurents.Controllers.RestaurentsController| - 
+ Get all restaurents response @{"Items":[{"Id":8,"Name":"Spice Garden","Description":"Authentic Indian cuisine with rich flavors.","Category":"Indian","HasDelivery":true,"CreatedAt":"2025-11-20T17:49:45.6585","Street":"MG Road","PostalCode":"500001","City":"Hyderabad","dishes":[]},{"Id":9,"Name":"Ocean Breeze","Description":"Seafood restaurant with coastal vibes.","Category":"Seafood","HasDelivery":false,"CreatedAt":"2025-11-20T17:49:45.658561","Street":"Beach Road","PostalCode":"600004","City":"Chennai","dishes":[]},{"Id":10,"Name":"Green Bowl","Description":"Healthy vegetarian and vegan meals.","Category":"Vegan","HasDelivery":true,"CreatedAt":"2025-11-20T17:49:45.658561","Street":"Park Avenue","PostalCode":"560001","City":"Bangalore","dishes":[]}],"TotalPages":1,"TotalItemsCount":3,"ItemsFrom":1,"ItemsTo":10}
+[2025-11-20 23:25:44 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents responded 200 in 81.9658 ms
+[2025-11-20 23:25:55 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents/8 responded 200 in 31.4916 ms
+[2025-11-20 23:26:46 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/userRole responded 401 in 3.0036 ms
+[2025-11-20 23:28:08 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/login responded 200 in 201.8079 ms
+[2025-11-20 23:28:25 INF] | Restaurents.Application.CQRS.Commands.AssignUserRole.AssignUserRoleCommandHandler| - 
+ assign user role request {"UserEmail":"owner@gmail.com","RoleName":"Owner","$type":"AssignUserRoleCommand"}
+[2025-11-20 23:28:25 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/userRole responded 204 in 321.4238 ms
+[2025-11-20 23:29:24 INF] | Restaurents.Application.CQRS.Commands.AssignUserRole.AssignUserRoleCommandHandler| - 
+ assign user role request {"UserEmail":"user@gmail.com","RoleName":"User","$type":"AssignUserRoleCommand"}
+[2025-11-20 23:29:25 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/identity/userRole responded 204 in 237.7910 ms
+[2025-11-20 23:49:11 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-20 23:49:11 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-20 23:49:11 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-20 23:50:34 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-20 23:50:34 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST //api/restaurent/1/dishes responded 404 in 1.5713 ms
+[2025-11-20 23:50:44 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST //api/restaurent/1/dishes responded 404 in 0.4327 ms
+[2025-11-20 23:57:29 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-20 23:57:29 ERR] | Microsoft.EntityFrameworkCore.Update| - 
+ An exception occurred in the database while saving changes for context type 'Restaurents.Infrastructure.Persistance.RestaurentDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2025-11-20 23:57:29 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/restaurent/8/dishes responded 404 in 184.6054 ms
+[2025-11-20 23:57:29 ERR] | Microsoft.EntityFrameworkCore.Database.Connection| - 
+ An error occurred using the connection to database 'db-mycloud-sql' on server 'tcp:db-mycloud-sql.database.windows.net,1433'.
+[2025-11-20 23:57:44 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-20 23:57:44 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-20 23:57:44 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ No store type was specified for the decimal property 'Price' on entity type 'Dish'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+[2025-11-20 23:57:58 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-20 23:57:58 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-20 23:58:46 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/restaurent/8/dishes responded 200 in 48096.2818 ms
+[2025-11-20 23:58:48 WRN] | Restaurents.API.Middlewares.LongProcessingRequestsMiddleware| - 
+ Request [POST] at /api/restaurent/8/dishes took 48828ms
+[2025-11-20 23:59:55 ERR] | Microsoft.EntityFrameworkCore.Update| - 
+ An exception occurred in the database while saving changes for context type 'Restaurents.Infrastructure.Persistance.RestaurentDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+[2025-11-20 23:59:56 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/restaurent/9/dishes responded 404 in 36834.6566 ms
+[2025-11-20 23:59:56 WRN] | Restaurents.API.Middlewares.LongProcessingRequestsMiddleware| - 
+ Request [POST] at /api/restaurent/9/dishes took 36834ms

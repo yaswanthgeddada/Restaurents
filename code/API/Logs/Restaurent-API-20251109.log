@@ -1,0 +1,36 @@
+[2025-11-09 01:59:54 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-09 01:59:54 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-09 02:00:08 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-09 02:00:08 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-09 02:00:08 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId 1
+[2025-11-09 02:00:08 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId [{"Id":1,"Name":"Butter Chicken","Description":"Creamy tomato gravy with tender chicken pieces.","Price":250.0,"IsVeg":false,"IsAvailable":true,"Calories":null,"RestaurentId":1,"$type":"Dish"},{"Id":2,"Name":"Paneer Tikka","Description":"Grilled cottage cheese with spices.","Price":180.0,"IsVeg":true,"IsAvailable":true,"Calories":null,"RestaurentId":1,"$type":"Dish"},{"Id":7,"Name":"Paneer Butter Masala","Description":"Rich creamy curry made with paneer and butter, served with naan or rice.","Price":220.5,"IsVeg":true,"IsAvailable":true,"Calories":320,"RestaurentId":1,"$type":"Dish"}]
+[2025-11-09 02:00:08 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurent/1/dishes responded 200 in 169.1139 ms
+[2025-11-09 02:00:17 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId 2
+[2025-11-09 02:00:17 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId [{"Id":3,"Name":"Grilled Prawns","Description":"Prawns marinated with herbs and grilled.","Price":320.0,"IsVeg":false,"IsAvailable":true,"Calories":null,"RestaurentId":2,"$type":"Dish"},{"Id":4,"Name":"Fish Curry","Description":"Traditional South Indian fish curry.","Price":280.0,"IsVeg":false,"IsAvailable":true,"Calories":null,"RestaurentId":2,"$type":"Dish"}]
+[2025-11-09 02:00:17 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurent/2/dishes responded 200 in 54.1984 ms
+[2025-11-09 02:00:21 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId 3
+[2025-11-09 02:00:21 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId [{"Id":5,"Name":"Quinoa Salad","Description":"A refreshing salad with quinoa, veggies, and olive oil dressing.","Price":200.0,"IsVeg":true,"IsAvailable":true,"Calories":null,"RestaurentId":3,"$type":"Dish"},{"Id":6,"Name":"Vegan Burger","Description":"Plant-based burger with lettuce and avocado.","Price":220.0,"IsVeg":true,"IsAvailable":true,"Calories":null,"RestaurentId":3,"$type":"Dish"}]
+[2025-11-09 02:00:21 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurent/3/dishes responded 200 in 9.2105 ms
+[2025-11-09 02:00:25 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId 4
+[2025-11-09 02:00:25 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId []
+[2025-11-09 02:00:25 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurent/4/dishes responded 200 in 4.8772 ms
+[2025-11-09 02:00:31 INF] | Restaurents.Application.CQRS.Queries.GetAllDishes.GetAllDishesQueryHandler| - 
+ Inside GetAllDishesQueryHandler for restaurentId 122
+[2025-11-09 02:00:31 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurent/122/dishes responded 404 in 5.8141 ms

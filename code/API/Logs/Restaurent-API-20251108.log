@@ -1,0 +1,62 @@
+[2025-11-08 04:04:06 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-08 04:04:06 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-08 04:04:34 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-08 04:04:34 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-08 04:04:34 ERR] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents/69 responded 500 in 123.7312 ms
+Restaurents.Domain.Exceptions.NotFoundException: Record (69)  Not found
+   at Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository.GetRestaurentById(Int32 id) in /Users/luffy/DotnetProjects/Restaurents/Restaurents.Infrastructure/Repositories/Implementations/RestaurentRepository.cs:line 60
+   at Restaurents.Application.Queries.GetRestaurentById.GetRestaurentByIdQueryHandler.Handle(GetRestaurentByIdQuery request, CancellationToken cancellationToken) in /Users/luffy/DotnetProjects/Restaurents/Restaurents.Application/CQRS/Queries/GetRestaurentById/GetRestaurentByIdQueryHandler.cs:line 13
+   at Restaurents.Controllers.RestaurentsController.GetRestaurentById(Int32 id) in /Users/luffy/DotnetProjects/Restaurents/API/Controllers/RestaurentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+[2025-11-08 04:04:34 ERR] | Restaurents.API.Middlewares.ExceptionHandelingMiddleware| - 
+ Record (69)  Not found
+[2025-11-08 04:04:42 INF] | Restaurents.Controllers.RestaurentsController| - 
+ GetAllRestaurents method called.
+[2025-11-08 04:04:42 INF] | Restaurents.Application.Queries.GetAllRestaurents.GetAllRestaurentsQueryHandler| - 
+ Inside Service layer - GetAllRestaurentsQueryHandler , Request object is - {}
+[2025-11-08 04:04:42 INF] | Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository| - 
+ Inside Infra layer GetAllRestaurents called
+[2025-11-08 04:04:42 INF] | Restaurents.Infrastructure.Repositories.Implementations.RestaurentRepository| - 
+ Response from DB call - [{"Id":1,"Name":"Spice Garden","Description":"Authentic Indian cuisine with rich flavors.","Category":"Indian","HasDelivery":true,"ContactEmail":"contact@spicegarden.com","ContactNumber":"9876543210","CreatedAt":"2025-11-03T07:26:25.463463","Address":{"Street":"MG Road","PostalCode":"500001","City":"Hyderabad"},"Dishes":[]},{"Id":2,"Name":"Ocean Breeze","Description":"Seafood restaurant with coastal vibes.","Category":"Seafood","HasDelivery":false,"ContactEmail":"hello@oceanbreeze.com","ContactNumber":"9123456780","CreatedAt":"2025-11-03T07:26:25.463711","Address":{"Street":"Beach Road","PostalCode":"600004","City":"Chennai"},"Dishes":[]},{"Id":3,"Name":"Green Bowl","Description":"Healthy vegetarian and vegan meals.","Category":"Vegan","HasDelivery":true,"ContactEmail":"info@greenbowl.com","ContactNumber":"9988776655","CreatedAt":"2025-11-03T07:26:25.463711","Address":{"Street":"Park Avenue","PostalCode":"560001","City":"Bangalore"},"Dishes":[]},{"Id":4,"Name":"The Urban Kitchen","Description":"A cozy restaurant offering a variety of farm-fresh meals.","Category":"Restaurant","HasDelivery":true,"ContactEmail":"contact@urbankitchen.com","ContactNumber":"\u002B91-9876543210","CreatedAt":"2025-11-03T18:30:00","Address":{"Street":"12 Green Park Avenue","PostalCode":"500081","City":"Hyderabad"},"Dishes":[]},{"Id":5,"Name":"FitFuel Nutrition Store","Description":"Retail store providing high-quality protein supplements and snacks.","Category":"Retail","HasDelivery":false,"ContactEmail":"info@fitfuelstore.in","ContactNumber":"\u002B91-9090909090","CreatedAt":"2025-11-03T12:00:00","Address":{"Street":"Plot 21, Jubilee Hills","PostalCode":"500033","City":"Hyderabad"},"Dishes":[]},{"Id":6,"Name":"FitFuel Nutrition Store","Description":"Retail store providing high-quality protein supplements and snacks.","Category":"online","HasDelivery":false,"ContactEmail":"info@fitfuelstore.in","ContactNumber":"\u002B91-9090909090","CreatedAt":"2025-11-03T12:00:00","Address":{"Street":"Plot 21, Jubilee Hills","PostalCode":"500033","City":"Hyderabad"},"Dishes":[]}]
+[2025-11-08 04:04:42 INF] | Restaurents.Application.Queries.GetAllRestaurents.GetAllRestaurentsQueryHandler| - 
+ mapping the resources to DTo - System.Collections.Generic.List`1[Restaurents.Application.DTOs.RestaurentDto]
+[2025-11-08 04:04:42 INF] | Restaurents.Controllers.RestaurentsController| - 
+ Get all restaurents response @[{"Id":1,"Name":"Spice Garden","Description":"Authentic Indian cuisine with rich flavors.","Category":"Indian","HasDelivery":true,"CreatedAt":"2025-11-03T07:26:25.463463","Street":"MG Road","PostalCode":"500001","City":"Hyderabad","dishes":[]},{"Id":2,"Name":"Ocean Breeze","Description":"Seafood restaurant with coastal vibes.","Category":"Seafood","HasDelivery":false,"CreatedAt":"2025-11-03T07:26:25.463711","Street":"Beach Road","PostalCode":"600004","City":"Chennai","dishes":[]},{"Id":3,"Name":"Green Bowl","Description":"Healthy vegetarian and vegan meals.","Category":"Vegan","HasDelivery":true,"CreatedAt":"2025-11-03T07:26:25.463711","Street":"Park Avenue","PostalCode":"560001","City":"Bangalore","dishes":[]},{"Id":4,"Name":"The Urban Kitchen","Description":"A cozy restaurant offering a variety of farm-fresh meals.","Category":"Restaurant","HasDelivery":true,"CreatedAt":"2025-11-03T18:30:00","Street":"12 Green Park Avenue","PostalCode":"500081","City":"Hyderabad","dishes":[]},{"Id":5,"Name":"FitFuel Nutrition Store","Description":"Retail store providing high-quality protein supplements and snacks.","Category":"Retail","HasDelivery":false,"CreatedAt":"2025-11-03T12:00:00","Street":"Plot 21, Jubilee Hills","PostalCode":"500033","City":"Hyderabad","dishes":[]},{"Id":6,"Name":"FitFuel Nutrition Store","Description":"Retail store providing high-quality protein supplements and snacks.","Category":"online","HasDelivery":false,"CreatedAt":"2025-11-03T12:00:00","Street":"Plot 21, Jubilee Hills","PostalCode":"500033","City":"Hyderabad","dishes":[]}]
+[2025-11-08 04:04:42 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP GET /api/restaurents responded 200 in 106.8575 ms
+[2025-11-08 04:07:28 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-08 04:07:28 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-08 04:08:01 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-08 04:08:01 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-08 04:08:01 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP POST /api/restaurent/1/dishes responded 200 in 184.2726 ms
+[2025-11-08 04:13:49 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+[2025-11-08 04:13:49 WRN] | Microsoft.EntityFrameworkCore.Model.Validation| - 
+ The entity type 'Address' is an optional dependent using table sharing without any required non shared property that could be used to identify whether the entity exists. If all nullable properties contain a null value in database then an object instance won't be created in the query. Add a required property to create instances with null values for other properties or mark the incoming navigation as required to always create an instance.
+[2025-11-08 04:14:03 WRN] | Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware| - 
+ Failed to determine the https port for redirect.
+[2025-11-08 04:14:03 WRN] | LuckyPennySoftware.MediatR.License| - 
+ You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+[2025-11-08 04:14:03 INF] | Serilog.AspNetCore.RequestLoggingMiddleware| - 
+ HTTP PUT /api/restaurents/1 responded 200 in 201.4173 ms
