@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ENyS/OcrCio=",
+  "dgSpecHash": "cBdFK8n06Mk=",
   "success": true,
-  "projectFilePath": "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.Tests/Restaurents.Infrastructure.Tests.csproj",
+  "projectFilePath": "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.tests/Restaurents.Infrastructure.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/luffy/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/luffy/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.Tests/Restaurents.Infrastructure.Tests.csproj": {}
+    "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.tests/Restaurents.Infrastructure.Tests.csproj": {}
   },
   "projects": {
     "/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Application/Restaurents.Application.csproj": {
@@ -236,14 +236,14 @@
         }
       }
     },
-    "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.Tests/Restaurents.Infrastructure.Tests.csproj": {
+    "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.tests/Restaurents.Infrastructure.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.Tests/Restaurents.Infrastructure.Tests.csproj",
+        "projectUniqueName": "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.tests/Restaurents.Infrastructure.Tests.csproj",
         "projectName": "Restaurents.Infrastructure.Tests",
-        "projectPath": "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.Tests/Restaurents.Infrastructure.Tests.csproj",
+        "projectPath": "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.tests/Restaurents.Infrastructure.Tests.csproj",
         "packagesPath": "/Users/luffy/.nuget/packages/",
-        "outputPath": "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.Tests/obj/",
+        "outputPath": "/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/luffy/.nuget/NuGet/NuGet.Config"
