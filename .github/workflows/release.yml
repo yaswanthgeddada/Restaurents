@@ -1,0 +1,57 @@
+name: restaurents-api
+
+on:
+  push: 
+    branches: [master]
+  # pull_request:
+  #    branches: 
+  #    - master
+  workflow_dispatch:
+
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.0
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v5.0.0
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore Dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --no-restore -c Release
+      - name: publish
+        run: dotnet publish ./code/Restaurents.API.csproj -o ${{env.DOTNET_ROOT}}/api --no-build
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v5.0.0
+        with:
+          # Artifact name
+          name: api-artifact
+          path: ${{env.DOTNET_ROOT}}/api
+
+
+  deploy-to-azure:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v6.0.0
+        with:
+          name: api-artifact
+      - name: Azure WebApp
+        uses: Azure/webapps-deploy@v3.0.6
+        with:
+          app-name: restaurentservices
+          publish-profile: ${{secrets.PUBLISH_PROFILE_DEV}}
+
+
+
+
+
+
+
+
+        
