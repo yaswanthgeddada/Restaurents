@@ -34,6 +34,9 @@ jobs:
 
 
   deploy-to-azure:
+    environment:
+      name: 'Dev'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
