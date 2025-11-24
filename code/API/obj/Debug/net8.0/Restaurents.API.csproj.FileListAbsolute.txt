@@ -523,3 +523,4 @@
 /Users/luffy/DotnetProjects/Restaurents/code/API/obj/Debug/net8.0/ref/Restaurents.API.dll
 /Users/luffy/DotnetProjects/Restaurents/code/API/bin/Debug/net8.0/Microsoft.ApplicationInsights.dll
 /Users/luffy/DotnetProjects/Restaurents/code/API/bin/Debug/net8.0/Serilog.Sinks.ApplicationInsights.dll
+/Users/luffy/DotnetProjects/Restaurents/code/API/obj/Debug/net8.0/Restaurents.API.sourcelink.json

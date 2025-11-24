@@ -264,3 +264,4 @@
 /Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.tests/obj/Debug/net8.0/Restaurents.Infrastructure.Tests.pdb
 /Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.Tests/obj/Debug/net8.0/Restaurents.Infrastructure.Tests.genruntimeconfig.cache
 /Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.Tests/obj/Debug/net8.0/ref/Restaurents.Infrastructure.Tests.dll
+/Users/luffy/DotnetProjects/Restaurents/tests/Restaurents.Infrastructure.tests/obj/Debug/net8.0/Restaurents.Infrastructure.Tests.sourcelink.json

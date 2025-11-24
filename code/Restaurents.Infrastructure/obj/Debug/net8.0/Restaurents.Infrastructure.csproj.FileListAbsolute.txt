@@ -55,3 +55,4 @@
 /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Infrastructure/obj/Debug/net8.0/Restaurents.Infrastructure.pdb
 /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Infrastructure/obj/Debug/net8.0/Restaurents.Infrastructure.genruntimeconfig.cache
 /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Infrastructure/obj/Debug/net8.0/ref/Restaurents.Infrastructure.dll
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Infrastructure/obj/Debug/net8.0/Restaurents.Infrastructure.sourcelink.json

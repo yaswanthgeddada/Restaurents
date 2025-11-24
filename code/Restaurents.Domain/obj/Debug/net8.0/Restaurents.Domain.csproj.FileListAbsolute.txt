@@ -22,3 +22,4 @@
 /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Debug/net8.0/refint/Restaurents.Domain.dll
 /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Debug/net8.0/Restaurents.Domain.pdb
 /Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Debug/net8.0/ref/Restaurents.Domain.dll
+/Users/luffy/DotnetProjects/Restaurents/code/Restaurents.Domain/obj/Debug/net8.0/Restaurents.Domain.sourcelink.json
